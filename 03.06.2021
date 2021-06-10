@@ -1,0 +1,31 @@
+1)
+  -mkdir LinuxTask
+
+2) 
+  -touch test testFile fileForTest testo Test-Testovich.bio
+  -rm *test*
+  
+3)
+ -ln -s ../../../bin/pwd ../LinuxTask/./LinkPWD
+
+4)
+  -mkdir important
+  -touch 1 2 12 123 txt
+  -mv ???  important/
+
+5)
+  -touch text2.txt
+  -env | grep LC > text2.txt
+  -less text2.txt 
+
+6)
+  -touch text.txt
+  -locate code > text.txt 
+  -less text.txt
+
+7) 
+  -touch startStream
+  -nano startStream
+     --mpv udp://224.0.0.1:9999
+  -chmod a=x startStream
+  -./startStream
